@@ -1,0 +1,91 @@
+body {
+	background-color: #dae2f5;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header{
+	background-color: grey;
+	padding: 40px;
+}
+
+header h2{
+	margin: 0;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li{
+  float: right;
+}
+
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 22px;
+  text-decoration: none;
+  font-family: 'Domine', serif;
+  background-color: blue;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover{
+  background-color: #111;
+}
+
+header h1{
+	margin: 0;
+	font-family: 'Domine', serif;
+}
+
+footer {
+	background-color: green;
+	padding: 40px;
+}
+
+#charlie {
+	width: 250px;
+}
+
+.two-column{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 40px;
+	background-color: pink;
+}
+
+.two-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Domine', serif;
+}
+
+.three-column{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 20px;
+	background-color: orange;
+}
+
+
+.three-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Domine', serif;
+}
+

@@ -1,9 +1,9 @@
 body {
-	background-color: #dae2f5;
+	background-color: #dedede;
 }
 
 #container{
-	width: 1000px;
+	width: 1100px;
 	margin: 0 auto;
 	background-color: white;
 }
@@ -38,12 +38,19 @@ nav li a{
   padding: 22px 22px;
   text-decoration: none;
   font-family: 'Domine', serif;
-  background-color: blue;
+  background-color: grey-blue;
 }
 
-/* Change the link color to #111 (black) on hover */
 nav li a:hover{
   background-color: #111;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
 
 header h1{
@@ -57,7 +64,27 @@ footer {
 }
 
 #charlie {
-	width: 250px;
+	width: 300px;
+	height: 300px;
+}
+
+#chaplin{
+	width: 300px;
+	height: 300px;
+}
+
+main p{
+	font-size: 20px;
+	font-family: 'Domine', serif;
+}
+
+main h2{
+	font-family: 'Domine', serif;
+	background-color: grey;
+}
+
+main h1{
+	font-family: 'Domine', serif; 
 }
 
 .two-column{

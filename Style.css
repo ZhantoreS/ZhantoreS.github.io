@@ -1,5 +1,5 @@
 body {
-	background-color: #dedede;
+	background-color: white;
 }
 
 #container{
@@ -8,9 +8,24 @@ body {
 	background-color: white;
 }
 
+body{
+	background-color: #000;
+}
+
+main h2{
+	font-family: 'Domine', serif;
+	background-color: white;
+}
+
+main h1{
+	font-family: 'Domine', serif;
+	background-color: white;
+}
+
 header{
-	background-color: grey;
+	background-color: #cacccb;
 	padding: 40px;
+	font-family: 'Domine', serif;
 }
 
 header h2{
@@ -20,37 +35,39 @@ header h2{
 	padding-bottom: 10px;
 }
 
+
 nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 nav li{
-  float: right;
+	float: right;
 }
 
 nav li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 22px 22px;
-  text-decoration: none;
-  font-family: 'Domine', serif;
-  background-color: grey-blue;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-family: 'Domine', serif;
+	background-color: #000;
+	border-right: 2px solid #fff;
 }
 
 nav li a:hover{
-  background-color: #111;
+	background-color: #cacccb;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+	background-color: #cacccb;
 }
 
 .active {
-  background-color: #04AA6D;
+	background-color: #cacccb;
 }
 
 header h1{
@@ -59,8 +76,18 @@ header h1{
 }
 
 footer {
-	background-color: green;
+	background-color: #cacccb;
 	padding: 40px;
+}
+
+.link{
+	text-decoration: none;
+	color: black; 
+}
+
+.email{
+	text-decoration: none;
+	color: white;
 }
 
 #charlie {
@@ -78,41 +105,63 @@ main p{
 	font-family: 'Domine', serif;
 }
 
-main h2{
-	font-family: 'Domine', serif;
-	background-color: grey;
+#cia{
+	text-align: center;
+	font-family: 'Domine', serif; 
 }
 
-main h1{
-	font-family: 'Domine', serif; 
+
+.contact{
+	font-family: 'Domine', serif;
+	font-size: 20px;
+	
 }
 
 .two-column{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	padding: 40px;
-	background-color: pink;
+	background-color: #fff;
 }
 
 .two-column div{
-	background-color: white;
+	background-color: #fff;
 	margin-left: 10px;
 	margin-right: 10px;
+	text-align: center;
 	font-family: 'Domine', serif;
+	text-decoration: none;
+	
 }
 
 .three-column{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
-	padding: 20px;
-	background-color: orange;
+	padding: 10px 10px;
+	color: #000;
+	background-color: #cacccb;
 }
 
 
 .three-column div{
-	background-color: white;
-	margin-left: 10px;
-	margin-right: 10px;
+	background-color: #000;
+	margin-left: 20px; 
+	margin-right: 20px;
+	text-align: center;
+	border-width: 2px;
+	border-color: #fff;
+	border-style: solid;
+	color: #fff;
 	font-family: 'Domine', serif;
+}
+
+.contact{
+	background: #fff;
+	padding: 15px;
+}
+
+article p{
+	background-color: #fff;
+	font-size: 16px;
 }
 

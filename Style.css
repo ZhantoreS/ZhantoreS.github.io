@@ -9,7 +9,7 @@ body {
 }
 
 body{
-	background-color: #000;
+	background-color: black;
 }
 
 main h2{
@@ -49,20 +49,17 @@ nav li{
 
 nav li a{
 	display: block;
-	color: #fff;
+	color: white;
 	text-align: center;
 	padding: 20px 20px;
 	text-decoration: none;
 	font-family: 'Domine', serif;
-	background-color: #000;
+	background-color: black;
 	border-right: 2px solid #fff;
 }
 
-nav li a:hover{
-	background-color: #cacccb;
-}
 
-li a:hover:not(.active) {
+li a:hover:not(.active){
 	background-color: #cacccb;
 }
 
@@ -85,19 +82,35 @@ footer {
 	color: black; 
 }
 
+a.link:hover{
+	text-decoration: underline;
+	color: black; 
+}
+
 .email{
 	text-decoration: none;
 	color: white;
 }
 
+a.email:hover{
+	text-decoration: underline;
+	color: white; 
+}
+
 #charlie {
-	width: 300px;
-	height: 300px;
+	width: 350px;
+	height: 350px;
+	border-width: 0px 2px 2px 2px;
+	border-color: black;
+	border-style: solid;
 }
 
 #chaplin{
-	width: 300px;
-	height: 300px;
+	width: 350px;
+	height: 350px;
+	border-width: 0px 2px 2px 2px;
+	border-color: black;
+	border-style: solid;
 }
 
 main p{
@@ -114,31 +127,32 @@ main p{
 .contact{
 	font-family: 'Domine', serif;
 	font-size: 20px;
-	
 }
 
 .two-column{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	padding: 40px;
-	background-color: #fff;
+	background-color: white;
 }
 
 .two-column div{
-	background-color: #fff;
+	background-color: white;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align: center;
 	font-family: 'Domine', serif;
 	text-decoration: none;
-	
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
 }
 
 .three-column{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	padding: 10px 10px;
-	color: #000;
+	color: black;
 	background-color: #cacccb;
 }
 
@@ -151,17 +165,17 @@ main p{
 	border-width: 2px;
 	border-color: #fff;
 	border-style: solid;
-	color: #fff;
+	color: white;
 	font-family: 'Domine', serif;
 }
 
 .contact{
-	background: #fff;
+	background: white;
 	padding: 15px;
 }
 
 article p{
-	background-color: #fff;
+	background-color: white;
 	font-size: 16px;
 }
 
